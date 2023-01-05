@@ -8,5 +8,5 @@ include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup(main)
 
 include_directories(includes)
-add_executable(main src/main.cpp src/logging.cpp)
+add_executable(main src/main.cpp src/init-logging.cpp)
 target_link_libraries(main ${CONAN_LIBS})
