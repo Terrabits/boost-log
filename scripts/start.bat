@@ -6,6 +6,4 @@ setlocal
 cd "%ROOT_DIR%"
 
 REM start
-cd build
-cd bin
-.\main
+.\build\bin\main

@@ -3,5 +3,5 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 cd "$ROOT_DIR"
 
 # clean
-rm -rf build
-mkdir -p build/bin
+rm -rf    build/bin
+mkdir -p  build/bin

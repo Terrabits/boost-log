@@ -5,9 +5,6 @@ setlocal
 cd "%ROOT_DIR%"
 
 REM clean
-rmdir /S /Q build
+rmdir /S /Q build\bin
 mkdir build
 mkdir build\bin
-
-REM regenerate build\conanbuildinfo.cmake
-scripts\install-dependencies
