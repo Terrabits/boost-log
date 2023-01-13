@@ -5,8 +5,8 @@ setlocal
 cd "%ROOT_DIR%"
 
 REM make directories
-mkdir build
-mkdir build\bin
+mkdir build     >nul 2>&1
+mkdir build\bin >nul 2>&1
 
 REM build
-conan build . --build-folder build
+python -u -m conans.conan build . --build-folder build

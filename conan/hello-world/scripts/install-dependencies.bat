@@ -11,4 +11,5 @@ mkdir build
 
 REM build
 cd build
-conan install .. -u --build=missing
+python -u -m conans.conan install .. -u --build=missing
+scripts\clean.bat
